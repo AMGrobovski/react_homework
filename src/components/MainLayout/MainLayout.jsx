@@ -1,12 +1,12 @@
 import Header from "../Header";
 
-const MainLayout = ({children}) => {
-	return (
-		<div>
-			<Header />
-			{children}
-		</div>
-	)
+const MainLayout = ({ children }) => {
+  return (
+    <div>
+      <Header />
+      {children}
+    </div>
+  );
 };
 
 export default MainLayout;
