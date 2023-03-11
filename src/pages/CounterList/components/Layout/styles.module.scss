@@ -1,0 +1,36 @@
+.wrapper{
+	
+}
+
+.head{
+	font-size: 24px;
+	text-align: center;
+}
+
+.buttons{
+	text-align: center;
+}
+
+.btn_add{
+	margin: 10px 5px 10px 0;
+	width: 100px;
+	height: 30px;
+	transition: all .3s;
+	background-color: red;
+		&:hover{
+			transition: all .3s;
+			background-color: darkred;
+		}
+	}
+
+.info{
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.list{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 15px;
+	justify-content: start;
+}

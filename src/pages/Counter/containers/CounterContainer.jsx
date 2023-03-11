@@ -1,5 +1,5 @@
 import { Component } from "react";
-import CounterView from "../components/CounterView";
+import CounterView from "../../../commonComponents/CounterView";
 // import Layout from "../components/Layout";
 
 class CounterContainer extends Component {
@@ -12,7 +12,7 @@ class CounterContainer extends Component {
     };
   }
 
-  componentDidUpdate(prevProps, prevState) {
+  componentDidUpdate(_, prevState) {
     if (this.state.countValue !== prevState.countValue) {
       this.setState({ isEven: this.state.countValue % 2 === 0 });
     }

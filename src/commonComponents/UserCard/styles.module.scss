@@ -1,0 +1,25 @@
+.item{
+	padding: 10px;
+	font-size: 16px;
+}
+
+.name{
+	margin-bottom: 6px;
+}
+.age{
+	margin-bottom: 6px;
+}
+.id{
+	margin-bottom: 6px;
+}
+.btn{
+	background-color: yellow;
+	width: 100px;
+	height: 30px;
+	margin-right: 5px;
+	transition: all .3s;
+	&:hover{
+		transition: all .3s;
+		background-color: goldenrod;
+	}
+}
